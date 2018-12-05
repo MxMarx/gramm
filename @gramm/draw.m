@@ -866,6 +866,11 @@ for ind_row=1:length(uni_row) %Loop over rows
         %Set current axes
         ca = obj.facet_axes_handles(ind_row,ind_column);
         
+        %% Default properties
+        % Change tick direction to out
+        set(ca,'TickDir','out')
+        %%
+        
         set(ca,'FontName',obj.text_options.font,...
             'FontSize',obj.text_options.base_size)
 

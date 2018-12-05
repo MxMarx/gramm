@@ -29,7 +29,7 @@ classdef gramm < matlab.mixin.Copyable
         plot_lim
         
         xlim_extra=[0.05 0.05] %extend range of XLim (ratio of original XLim width)
-        ylim_extra=[0.05 0.05] %extend range of XLim (ratio of original YLim width)
+        ylim_extra=[0.00 0.05] %extend range of XLim (ratio of original YLim width)
         zlim_extra=[0.05 0.05]
         
         %Structure containing polar-related parameters: is_polar stores
