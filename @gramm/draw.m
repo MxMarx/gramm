@@ -404,10 +404,11 @@ for ind_row=1:length(uni_row)
                 end
             end
         end
-        
+
+        % I don't know why but gramm needs to wait a little for alpha to work
+        pause(.1)
         %Make axes current
         axes(obj.facet_axes_handles(ind_row,ind_column));
-        
         
         hold on
         
